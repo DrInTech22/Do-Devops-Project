@@ -7,4 +7,4 @@
 ## Solution
 I wrote a code that can efficiently scan through a log file, and extract the ip addresses present in it into a file for further analysis.
 
-I advanced this solution into a project in an independent repo. Check it [here]()
+I advanced this solution into a project in an independent repo. Check it [here](https://github.com/DrInTech22/Regex-Project)
