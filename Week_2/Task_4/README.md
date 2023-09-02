@@ -19,9 +19,10 @@ create_dynamodb_table(table_name)
 ```
 2. Add items to the table
 I added the following student records to the "StudentRecords" table:
-{Student_ID: 101, Student_Name: "Alice", Age: 20, Class: "Mathematics"},
-{Student_ID: 102, Student_Name: "Bob", Age: 22, Class: "Physics"},
-{Student_ID: 103, Student_Name: "Charlie", Age: 19, Class: "Biology"},
+
+{'Student_ID': 101, 'Student_Name': "Alice", 'Age': 20, 'Class': "Mathematics"},
+{'Student_ID': 102, 'Student_Name': "Bob", 'Age': 22, 'Class': "Physics"},
+{'Student_ID': 103, 'Student_Name': "Charlie", 'Age': 19, 'Class': "Biology"},
 ```
 add_items_to_table(table_name, items)
 ```
